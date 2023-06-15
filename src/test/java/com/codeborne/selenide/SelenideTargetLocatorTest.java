@@ -45,7 +45,7 @@ final class SelenideTargetLocatorTest {
       .isInstanceOf(FrameNotFoundException.class)
       .hasMessageStartingWith("No frame found with index: 666");
 
-    verify(targetLocator).frame(666);
+    verify(targetLocator).frame(666); // todo sorokinalen remove it
   }
 
   @Test

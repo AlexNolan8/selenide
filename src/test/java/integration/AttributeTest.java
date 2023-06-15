@@ -23,7 +23,7 @@ public final class AttributeTest extends ITest {
   }
 
   @Test
-  void canVerifyAttributeExistence() {
+  void canVerifyAttributeExistenceSecond() {
     $("#domain-container").shouldHave(attribute("class"));
     $("#domain-container").shouldNotHave(attribute("foo"));
   }
